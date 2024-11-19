@@ -1,0 +1,14 @@
+TITLE: Illustrating Python via Bioinformatics Examples
+AUTHOR: Hans Petter Langtangen at Center for Biomedical Computing, Simula Research Laboratory & Department of Informatics, University of Oslo
+AUTHOR: Geir Kjetil Sandve at Department of Informatics, University of Oslo
+DATE: today
+
+## Format: doconce, but the files are preprocessed, first by preprocess
+## for includes and then by mako for more control of formatting.
+
+## Parameters: PRIMER_BOOK and EBOOK on the command line
+## Provide default values: (mako will see this big file with all included)
+<%page args="PRIMER_BOOK=False, EBOOK=False"/>
+
+# #include "bioinf.do.txt"
+
